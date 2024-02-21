@@ -2855,12 +2855,9 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 70px;
+    height: 80px;
     width: auto;
     position: relative;
-    border: 2px solid white;
-    box-sizing: border-box;
-    border-radius: 50%;
 }
 
 /* Logo container styles. */
@@ -3945,13 +3942,6 @@ input:checked + .toggleSwitchSlider:before {
     height: auto;
 }
 
-/* Rotating image for the spinner. */
-#loadSpinnerImage {
-    width: 280px;
-    height: auto;
-    z-index: 400;
-}
-
 /* Rotating animation for the spinner. */
 @keyframes rotating {
     from {
@@ -3960,9 +3950,4 @@ input:checked + .toggleSwitchSlider:before {
     to {
         transform: rotate(360deg);
     }
-}
-
-/* Class which is applied when the spinner image is spinning. */
-.rotating {
-    animation: rotating 10s linear infinite;
 }

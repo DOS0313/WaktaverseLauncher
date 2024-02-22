@@ -3225,6 +3225,7 @@ input:checked + .toggleSwitchSlider:before {
     color: #848484;
     margin-left: 15px;
     font-family: 'sans-serif';
+    line-height: 16px;
 }
 
 /* Tooltip which displays more details about the mojang statuses. */
